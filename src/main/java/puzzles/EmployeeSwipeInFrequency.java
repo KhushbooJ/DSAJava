@@ -7,8 +7,8 @@ import java.util.*;
 public class EmployeeSwipeInFrequency {
 
     public static void main(String[] args) {
-        List<String> keyName = (Arrays.asList("alice","alice","alice","bob","bob","bob","bob"));
-        List<String> keyTime = (Arrays.asList("12:01","12:00","18:00","21:00","21:20","21:30","23:00"));
+        List<String> keyName = (Arrays.asList("alice","bob","alice","alice","bob","bob","bob","bob"));
+        List<String> keyTime = (Arrays.asList("12:01","14:00","12:00","18:00","21:00","21:20","21:30","23:00"));
 
         //create map of employee with list of swipe times in local time
         HashMap<String, ArrayList<LocalTime>> map = new HashMap<>();
