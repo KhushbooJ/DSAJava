@@ -6,12 +6,13 @@ public class InfiniteArray {
         int[] arr = new int[]{2,3,5,7,8,10,11,13,14,67,89,90,111,123};
         int start = 0;
         int end = 1;
-        int index = binarySearchInfinite(arr, 123,start,end);
+        int index = -1;
         while (index == -1) {
             start = end+1;
             end = start*2 + 1;
-            index = binarySearchInfinite(arr, 123,start,end);
+            index = binarySearchInfinite(arr, 111,start,end);
         }
+
         System.out.println(index);
     }
 
