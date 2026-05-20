@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class SearchRange {
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(searchRange(new int[]{3,3,3}, 3)));
+        System.out.println(Arrays.toString(searchRange(new int[]{2,3,4,5,5,5,5,5,6,7,9,10}, 5)));
     }
 
         public static int[] searchRange(int[] nums, int target) {
